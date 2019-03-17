@@ -1,0 +1,149 @@
+
+
+body {
+  color: black;
+  background: url("../images/white-waves.png");
+  }
+  
+  header {
+    background: white;
+    margin-top: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color:lightgray;
+  }
+
+  #header_tabs {
+    font-size: 10px;
+    float: right;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+    width: 25%;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  h1 {
+    background: teal;
+    color: white;
+    width: 250px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+  }
+
+  #about_me {
+    background: white;
+    height: 400px;
+    width: 1000px;
+    border-color: gray;
+    padding: 20px;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 200%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+
+  }
+
+  h2 {
+    color: teal;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 20px, 20px, 20px, 20px;
+  }
+
+  #bio_image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  #footer {
+    background: gray;
+    height: 40px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: teal;
+    margin-bottom: 0;
+    margin-top: 100px;
+
+
+  }
+
+  #contact_box {
+    background: white;
+    width: 600px;
+    height: 450px;
+    margin-left: 450px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px;
+
+  }
+
+  h3 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+
+  }
+
+  #name_box {
+    width: 560px;
+    height: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgray;    
+  }
+
+  #email_box {
+    width: 560px;
+    height: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgray; 
+  }
+
+  #message_box {
+    width: 560px;
+    height: 180px;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgray; 
+  }
+
+  #submit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    background: teal;
+    width: 80px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    padding-top: 10px;
+
+  }
