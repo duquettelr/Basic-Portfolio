@@ -23,7 +23,7 @@ body {
   }
 
   .clearfix::after {
-    content: "";
+    content: " ";
     clear: both;
     display: table;
   }
@@ -146,4 +146,97 @@ body {
     /* font-weight: bold; */
     padding-top: 10px;
 
+  }
+
+  #Portfolio {
+    background: white;
+    width: 600px;
+    height: 900px;
+    margin-left: 450px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px;
+  }
+
+  h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    background: teal;
+    text-align: center;
+    height:50px;
+    width: 200px;
+  }
+
+  #hangman_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #hangman_button {
+    position: absolute;
+    top: 320px;
+    left: 500px;
+  }
+
+  #rpg_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #rpg_button {
+    position: absolute;
+    top: 320px;
+    left: 740px;
+  }
+
+
+  #trivia_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #trivia_button {
+    position: absolute;
+    top: 560px;
+    left: 500px;
+  }
+
+  #rutgers_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #rutgers_button {
+    position: absolute;
+    top: 560px;
+    left: 740px;
+  }
+
+  #rps_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #rps_button {
+    position: absolute;
+    top: 800px;
+    left: 500px;
   }
