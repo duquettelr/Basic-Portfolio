@@ -13,15 +13,70 @@ body {
     border-bottom-color: #cccccc;
   }
 
-  #header_tabs {
-    font-size: 10px;
+  #header_tabs1 {
     position: absolute;
-    top: 50px;
-    right: 50px;
-    color: #777777;
+    right: 245px;
+    top: 5px;
+    color: #cccccc;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     margin-right: 10px;
-    width: 25%;
+    height: 13px;
+    width: 60px;
+    background: #4aaaa5;
+    padding: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+  }
+
+  #header_tabs1:hover {
+    background-color: gray;
+  }
+
+  #header_tabs2 {
+    position: absolute;
+    right: 145px;
+    top: 5px;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    height: 13px;
+    width: 60px;
+    background: #4aaaa5;
+    padding: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+  }
+
+  #header_tabs2:hover {
+    background-color: gray;
+  }
+
+  #header_tabs3 {
+    position: absolute;
+    right: 45px;
+    top: 5px;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    height: 13px;
+    width: 60px;
+    background: #4aaaa5;
+    padding: 15px;
+    text-align: center;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+  }
+
+  #header_tabs3:hover {
+    background-color: gray;
   }
 
   .clearfix::after {
@@ -41,20 +96,22 @@ body {
 
   #about_me {
     background: #ffffff;
-    height: 400px;
+    height: 300px;
     width: 1000px;
     border-color: #dddddd;
-    padding: 20px;
+    padding: 30px;
     font-size: 12px;
     text-align: left;
-    margin-left: 200px;
-    margin-top: 20px;
+    margin: auto;
+    margin-top: 40px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 200%;
     border-style: solid;
     border-width: 2px;
     border-color: #dddddd;
+    position: relative;
+    top: 50px;
 
   }
 
@@ -64,7 +121,7 @@ body {
     border-bottom-width: 1px;
     border-bottom-color: lightgrey;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 28px;
     margin: 20px, 20px, 20px, 20px;
   }
 
@@ -72,7 +129,9 @@ body {
     float: left;
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
   }
 
   #footer {
@@ -81,10 +140,8 @@ body {
     border-top-style: solid;
     border-top-width: 5px;
     border-top-color: #4aaaa5;
-    margin-bottom: 0;
-    margin-top: 100px;
-
-
+    position: relative;
+    top: 300px;
   }
 
   #contact_box {
@@ -92,7 +149,7 @@ body {
     width: 600px;
     height: 450px;
     margin-left: 450px;
-    margin-top: 20px;
+    margin-top: 60px;
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
@@ -105,48 +162,54 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin-left: 10px;
+    padding: 10px;
 
   }
 
-  #name_box {
+  .name_box[type=text] {
     width: 560px;
     height: 20px;
-    margin-left: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:#dddddd;    
+    margin-left: 0px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color:#dddddd;     */
   }
 
-  #email_box {
+  .email_box[type=text] {
     width: 560px;
     height: 20px;
-    margin-left: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:#dddddd; 
+    margin-left: 0px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color:#dddddd;  */
   }
 
-  #message_box {
+  .message_box[type=text] {
     width: 560px;
     height: 180px;
-    margin-left: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:#dddddd; 
+    margin-left: 10px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color:#dddddd;  */
   }
 
-  #submit {
+  .submit {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
-    background: #4aaaa5;
+    background-color: #4aaaa5;
     width: 80px;
-    height: 25px;
+    height: 35px;
     margin-left: 20px;
     margin-top: 20px;
     text-align: center;
     /* font-weight: bold; */
-    padding-top: 10px;
+    padding-top: 20px;
+
+  }
+
+  .submit:hover {
+    background-color: gray;
 
   }
 
@@ -182,8 +245,13 @@ body {
 
   #hangman_button {
     position: absolute;
-    top: 320px;
-    left: 500px;
+    top: 280px;
+    left: 490px;
+  }
+
+  #hangman_button:hover {
+    background-color: gray;
+
   }
 
   #rpg_box {
@@ -196,10 +264,14 @@ body {
 
   #rpg_button {
     position: absolute;
-    top: 320px;
-    left: 740px;
+    top: 280px;
+    left: 730px;
   }
 
+  #rpg_button:hover {
+    background-color: gray;
+
+  }
 
   #trivia_box {
     float: left;
@@ -211,8 +283,13 @@ body {
 
   #trivia_button {
     position: absolute;
-    top: 560px;
-    left: 500px;
+    top: 520px;
+    left: 490px;
+  }
+
+  #trivia_button:hover {
+    background-color: gray;
+
   }
 
   #rutgers_box {
@@ -225,8 +302,13 @@ body {
 
   #rutgers_button {
     position: absolute;
-    top: 560px;
-    left: 740px;
+    top: 520px;
+    left: 730px;
+  }
+
+  #rutgers_button:hover {
+    background-color: gray;
+
   }
 
   #rps_box {
@@ -239,6 +321,11 @@ body {
 
   #rps_button {
     position: absolute;
-    top: 800px;
-    left: 500px;
+    top: 760px;
+    left: 490px;
+  }
+
+  #rps_button:hover {
+    background-color: gray;
+
   }

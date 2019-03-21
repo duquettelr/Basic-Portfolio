@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title> Lindsey's Portfolio</title>
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
@@ -12,13 +13,20 @@
 
     <header>
         <h1>Lindsey Duquette</h1>
-    </header>
 
-    <nav id="header_tabs">
-            <a href="./index.html">About</a> |
-            <a href="./portfolio.html">Portfolio</a> |
-            <a href="./contact.html">Contacts</a> |
-    </nav>
+        <nav id="header_tabs1">
+            <a href="./index.html">About</a> 
+        </nav>
+
+        <nav id="header_tabs2">
+            <a href="./portfolio.html">Portfolio</a> 
+        </nav>
+
+        <nav id="header_tabs3">
+            <a href="./contact.html">Contacts</a> 
+        </nav>
+    
+    </header>
 
     <div class="clearfix">
 
@@ -26,19 +34,31 @@
 
         <h2>Contact</h2>
 
-        <h3>Name</h3>
+        <h3>Name
 
-            <div id="name_box"></div>
+            <br>
 
-        <h3>Email</h3>
+            <input type="text" class="name_box"/><br>
 
-            <div id="email_box"></div>
+        </h3>
 
-        <h3>Message</h3>
+        <h3>Email
 
-            <div id="message_box"></div>
+            <br>
+
+            <input type="text" class="email_box"/><br>
+
+        </h3>
+
+        <h3>Message
         
-        <div id="submit">
+        <br>
+
+            <textarea rows="10" cols="75" class="message_box"></textarea><br>
+
+        </h3>
+        
+        <div class="submit">
             Submit
         </div>
 
