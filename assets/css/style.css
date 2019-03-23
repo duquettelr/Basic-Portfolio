@@ -252,10 +252,11 @@ body {
   }
 
   #hangman_button {
-    position: absolute;
+    position: relative;
     width: 250px;
-    top: 400px;
-    left: 340px;
+    top: 150px;
+    /* top: 400px; */
+    /* left: 340px; */
   }
 
   #hangman_button:hover {
@@ -272,10 +273,11 @@ body {
   }
 
   #rpg_button {
-    position: absolute;
+    position: relative;
     width: 250px;
-    top: 400px;
-    left: 630px;
+    top: 150px;
+    /* top: 400px; */
+    /* left: 630px; */
   }
 
   #rpg_button:hover {
@@ -292,10 +294,11 @@ body {
   }
 
   #trivia_button {
-    position: absolute;
+    position: relative;
     width: 250px;
-    top: 640px;
-    left: 340px;
+    top: 150px;
+    /* top: 640px; */
+    /* left: 340px; */
   }
 
   #trivia_button:hover {
@@ -312,10 +315,11 @@ body {
   }
 
   #rutgers_button {
-    position: absolute;
+    position: relative;
     width: 250px;
-    top: 640px;
-    left: 630px;
+    top: 150px;
+    /* top: 640px; */
+    /* left: 630px; */
   }
 
   #rutgers_button:hover {
@@ -332,10 +336,11 @@ body {
   }
 
   #rps_button {
-    position: absolute;
+    position: relative;
     width: 250px;
-    top: 890px;
-    left: 340px;
+    top: 150px;
+    /* top: 890px; */
+    /* left: 340px; */
   }
 
   #rps_button:hover {
